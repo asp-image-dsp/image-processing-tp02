@@ -6,7 +6,7 @@ h = h/sum(h(:));
 h = fspecial('unsharp');
 %h = fspecial('disk');
 
-b=imread('barbara.gif'); 
+b=imread('barbara.jpg'); 
 imshow(b);
 
 h1=imfilter(b,h);    %make conv with the filter ==> 
